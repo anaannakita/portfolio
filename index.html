@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+     <meta charset="utf-8">
+     <title>Anna's Page</title>
+
+     <meta name="description" content="My website">
+     <meta name="keywords" content="first, website, portfolio">
+     <meta name="author" content="Anna Maria">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+     <link rel="stylesheet" href="css/style.css" type="text/css">
+     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-string navbar-expand-sm">
+
+            <a class="navbar-brand" href="#home">A</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu" aria-controls="mainmenu" aria-expanded="false" aria-label="przełacznik-nawigacji">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#technologies">Technologies</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main">
+            <div class="container">
+                <div class="row" id="home">
+                    <div class="col-12 section1">
+                        <h1 id="animation1">welcome to </h1>
+                        <h2 id="annaspage">ANNA's page</h2>
+                    </div>
+                    <div class="col-12 section2" id="about">
+                        <h2>ABOUT me</h2>
+                        <div class="row">
+                            <div id="emojiparent"class="col-sm-12 col-md-4">
+                                 <img id="emoji" src="photos/emoji-3d icons-glossy-3d-icons-blond-haired-woman-72dpi-forPersonalUseOnly.gif">
+                            </div>
+                            <div class="col-sm-12 col-md-8">
+                                     <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 section3" id="technologies">
+                        <h2>TECHNOLOGIES</h2>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                <img src="icons/html5-plain-wordmark.svg">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                    <img src="icons/javascript-plain.svg">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                    <img src="icons/css3-plain-wordmark.svg">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                    <img src="icons/react-original-wordmark.svg">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                    <img src="icons/nodejs-plain-wordmark.svg">
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                                    <img src="icons/redux-original.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 section4" id="portfolio">
+                        <h2>my PORTFOLIO</h2>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="photo1">
+                                    <img src="photos/photo1.jpg" alt="project1">
+                                    <span class="info"><p>Lorem, ipsum dolor.</p></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="photo2">
+                                    <img src="photos/photo2.jpg" alt="project2">
+                                    <span class="info"><p>Lorem, ipsum dolor.</p></span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="photo3">
+                                    <img src="photos/photo3.jpg" alt="project3">
+                                    <span class="info"><p>Lorem, ipsum dolor.</p></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 section5" id="contact">
+                        <h2>GET in touch</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus magnam quidem rerum nostrum.</p>
+                        <div class="col-12">
+                            <form action="#" method="POST" id="formularz">
+                                <label>
+                                    <input type="text" name="name" placeholder="Your Name">
+                                </label>
+                                <label>
+                                    <input type="text" name="email" placeholder="Your E-mail">
+                                </label>
+                                <label>
+                                    <input type="text" name="topic" placeholder="Topic">
+                                </label>
+                                <label>
+                                    <textarea name="comments" required placeholder="Message"></textarea>
+                                </label>
+                                <label>
+                                    <input type="submit" name="send" value="Submit">
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright All Rights Reserved 2019. &copy by Anna Maria
+        </p>
+    </footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"> </script>
+</body>
+
+</html>

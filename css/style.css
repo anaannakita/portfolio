@@ -1,0 +1,369 @@
+:root {
+    font-size: 12px;
+}
+body {
+    font-family: Raleway, sans-serif;
+    background-image: url("../photos/bg.jpg");
+    overflow-x: hidden;
+}
+
+.main {
+    border: none;
+}
+
+.section1 {
+    background-color: hsla(184,100%,100%,0.4);
+}
+
+.section2 {
+    background-color: hsla(184,100%,100%,0.7);
+}
+.section3 {
+    background-color: hsla(184,100%,100%,0.7);
+}
+.section4 {
+    background-color: hsla(184,100%,100%,0.7);
+}
+
+.section5 {
+    background-color: hsla(184,100%,100%,0.7);
+}
+
+.bg-string{
+    background-color: #6595A5;
+}
+
+h1 {
+    font-size: 4rem;
+    background-color: hsla(179, 19%, 70%, 0.8);
+    border-radius: 10px 0 0 10px;
+    box-shadow: 5px 5px 10px -5px black;
+    padding: 0.5rem;
+    max-width: 67rem;
+    margin-top: 8rem;
+    margin-left: 303px;
+    /* ANIMATIONS*/
+    position: relative;
+    left: 1000px;
+    animation: welcome;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+#annaspage {
+    font-size: 5.5rem;
+    background-color: lightpink;
+    padding: 0.5rem;
+    max-width: 67rem;
+    text-align: right;
+    margin-top: 3rem;
+    /* ANIMATIONS*/
+    position: relative;
+    right: 1000px;
+    animation: anna;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/*keyframes*/
+/*keyframes*/
+
+@keyframes welcome {
+    0% { left: 1000px;}
+    100% { left: 0px;}
+}
+@keyframes anna {
+    0% { right: 1000px;}
+    100% { right: 0px;}
+}
+
+
+
+h2 {
+    font-size: 4rem;
+    font-weight: 550;
+    background-color: #E5A3AD;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 5px 5px 10px -5px black;
+    padding: 0.5rem;
+    max-width: 67rem;
+    text-align: right;
+}
+.navbar {
+    min-height: 0.5rem;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.navbar-nav {
+    margin: auto 0px auto auto;
+}
+.navbar-brand {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+    padding: 0px;
+}
+
+.nav-item {
+    width: 100%;
+    margin: auto 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.section1, .section2, .section3, .section4, .section5 {
+    min-height: 750px;
+    margin: 1rem auto 1rem auto;
+    border: none;
+    border-radius: 5px;
+    padding-top: 4rem;
+}
+.section1 {
+    margin-top: 7rem;
+}
+.section2 p {
+    font-size: 1.5rem;
+    margin-top: 70px;
+}
+#emoji {
+    width: 150px;
+}
+#emojiparent {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.section3 img {
+  margin: 30px;
+  width: 70px;
+  height: auto;
+  box-sizing: content-box;
+  padding: 0.5rem;
+  background-color: hsla(184,100%,100%,0.8);
+
+}
+.section3 > .row {
+    margin-top: 130px;
+}
+.section3 > .row > div {
+    display: flex;
+    justify-content: center;
+}
+
+.section4 > .row {
+    margin-top: 50px;
+}
+.section4 .photo1 > img, .photo2 > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px -5px black;
+}
+
+.photo1 {
+    max-width: 280px;
+    height: auto;
+    margin: 15px auto 15px auto;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+.photo1 p {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #27a38d;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+.photo2 {
+    max-width: 280px;
+    height: auto;
+    margin: 15px auto 15px auto;position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.photo2 p {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #27a38d;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.photo3 {
+    max-width: 500px;
+    height: auto;
+    margin: 15px auto 15px auto;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+}
+
+.photo3 p {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #27a38d;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.photo3 > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px -5px black;
+
+}
+
+.info {
+    width: 100%;
+    position: absolute;
+    display: block;
+    top: 80%;
+}
+
+
+/*EFEKT HOVER dla zdjec*/
+
+.photo1:hover, .photo2:hover, .photo3:hover  {
+    transform: scale(1.1);
+}
+
+.photo1:hover p, .photo2:hover p, .photo3:hover p {
+    opacity: 0.8;
+}
+
+/*KONIEC EFEKT HOVER dla zdjec*/
+
+
+
+.section5 p {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 1.4rem;
+}
+
+input {
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 10px -5px black;
+    border: none;
+    background-color: hsla(184,100%,100%,0.8);
+}
+
+#formularz {
+    max-width:600px;
+    max-height: 500px;
+    margin: 4rem auto 1rem auto;
+
+}
+
+textarea {
+    height: 170px;
+    min-height: 1.7rem;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 5px 5px 10px -5px black;
+    font-size: 1.2rem;
+    background-color: hsla(184,100%,100%,0.8);
+}
+input[type="submit"] {
+    margin: 2.1rem 0 0 auto;
+    display: block;
+    width: 9rem;
+    font-family: inherit;
+    font-size: 1.3rem;
+    border-radius: 7px;
+    box-shadow: 5px 5px 10px -5px black;
+    transition: transform 0.1s ease-in-out;
+    background-color: hsla(184,100%,100%, 1);
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 0.8rem 0;
+    font-size: 1rem;
+    margin-top: 1rem;
+    background-color: #6799A9;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 575px) and (max-width: 768px) {
+    #emoji {
+        width: 90px;
+        height:90px;
+        }
+    h1 {
+        margin-left: 14rem;
+    }
+    :root {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 574px) {
+    .section3 img {
+        width: 40px;
+        height: auto;
+      }
+    .section1, .section2, .section3, .section5  {
+        min-height: 400px;
+    }
+    :root {
+        font-size: 10px;
+    }
+
+    #emoji {
+        width: 50px;
+        height:50px;
+        }
+    h1 {
+        margin-left: 5rem;
+        font-size: 3rem;
+        margin-top: 4rem;
+    }
+    #annaspage {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+}
+/*KONIEC MEDIA QUERIES*/
+
+
